@@ -230,7 +230,7 @@ UINT CPlanetaryMotionView::StartFunction(LPVOID parm)
 	CPlanetaryMotionView* pmView = (CPlanetaryMotionView*)parm;
 	
 	//v = R * omega
-	double earth_omega = pmView->m_EarthVelocity / ((pmView->m_EarthDistance + pmView->m_EarthDistance +10)/2);
+	double earth_omega = pmView->m_EarthVelocity / (pmView->m_EarthDistance);
 	double mars_omega = pmView->m_MarsVelocity / pmView->m_MarsDistance;
 	
 	
