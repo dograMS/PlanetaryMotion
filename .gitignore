@@ -1,0 +1,8 @@
+# Ignore build output folders (for all architectures)
+[Bb]in/
+[Oo]bj/
+.vs/
+x64/
+x86/
+ARM/
+ARM64/
